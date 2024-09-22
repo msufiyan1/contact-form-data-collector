@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <div class="tables">
+        <h2>Sample Table</h2>
+        
+        
+        <div class="form">
+            <div class="input">
+    <input class="input1" type="text" placeholder="First name" required><br>
+    <input class="input2" type="email" placeholder="Email" required><br>
+    <input class="input3" type="number" placeholder="Phone" required><br>
+    <input class="input4" type="number" placeholder="Roll No." required><br>
+</div>
+
+
+<button onclick="add()" class="submit">Submit</button>
+</div>  
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Emails</th>
+            <th>Mobile</th>
+            <th>Roll no.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- <tr>
+            <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+        </tbody>
+    </table>
+</div>
+
+<button onclick="dltAllRows()" class="clear">Clear All</button>
+<script src="./script.js"></script>
+</body>
+</html>

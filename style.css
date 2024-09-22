@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family:  sans-serif !important;
+}
+
+h2 {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+.input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.submit{
+    position: relative;
+    left: 43%;
+    width: 15%;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;   
+    cursor: pointer;
+    margin-bottom: 50px;
+
+}
+ 
+.clear{
+    position: relative;
+    left: 43%;
+    width: 15%;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;   
+    cursor: pointer;
+}
+
+.input1 , .input2, .input3, .input4{
+    width: 20%;
+    height: 5vh;
+}
